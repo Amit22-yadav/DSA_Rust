@@ -16,6 +16,6 @@ pub fn fibonacci_series(){
     println!("<------------ Fibonacci series -------------------->\n");
     println!("Fibonacci series of first {} number\n", n);
     for i in 1..n{
-        println!("{}", fibonacci(i));
+        println!("{}\n", fibonacci(i));
     }
 }
