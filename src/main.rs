@@ -5,6 +5,7 @@ use strings::string_is_palindrome::test_palindrome;
 use strings::longest_string::find_long_string;
 use arrays::Fibonacci::fibonacci_series;
 use arrays::reverse_array::rev_arr;
+use arrays::max_min_array::max_min;
 
 fn main() {
     largest_array();
@@ -12,4 +13,5 @@ fn main() {
     find_long_string();
     fibonacci_series();
     rev_arr();
+    max_min();
 }
