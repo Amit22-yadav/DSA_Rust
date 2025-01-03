@@ -6,6 +6,7 @@ use strings::longest_string::find_long_string;
 use arrays::Fibonacci::fibonacci_series;
 use arrays::reverse_array::rev_arr;
 use arrays::max_min_array::max_min;
+use arrays::duplicate_in_arr::duplicates_numbers;
 
 fn main() {
     largest_array();
@@ -14,4 +15,5 @@ fn main() {
     fibonacci_series();
     rev_arr();
     max_min();
+    duplicates_numbers();
 }
