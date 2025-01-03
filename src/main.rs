@@ -7,6 +7,7 @@ use arrays::Fibonacci::fibonacci_series;
 use arrays::reverse_array::rev_arr;
 use arrays::max_min_array::max_min;
 use arrays::duplicate_in_arr::duplicates_numbers;
+use arrays::sort_arr::sort_array;
 
 fn main() {
     largest_array();
@@ -16,4 +17,5 @@ fn main() {
     rev_arr();
     max_min();
     duplicates_numbers();
+    sort_array();
 }
