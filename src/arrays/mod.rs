@@ -3,3 +3,4 @@ pub mod Fibonacci;
 pub mod reverse_array;
 pub mod max_min_array;
 pub mod duplicate_in_arr;
+pub mod sort_arr;
